@@ -423,7 +423,7 @@ if __name__ == "__main__":
 
     root = tk.Tk()
 
-    CA = test(CA, y_s=7, x_s=1, y_e=5, x_e=12, y_u=2, y_d=17, x_u=5, x_d=9)  # vertical wall
+    # CA = test(CA, y_s=7, x_s=1, y_e=5, x_e=12, y_u=2, y_d=17, x_u=5, x_d=9)  # vertical wall
     # CA = test(CA, y_s=7, x_s=1, y_e=7, x_e=12, y_u=2, y_d=17, x_u=5, x_d=9)  # vertical wall, same level init
     # CA = test(CA, y_s=7, x_s=1, y_e=7, x_e=12, y_u=2, y_d=12, x_u=5, x_d=9)  # vertical wall, same paths
     # CA = test(CA, y_s=12, x_s=5, y_e=1, x_e=7, y_u=5, y_d=9, x_u=2, x_d=17)  # horizontal wall
@@ -432,7 +432,7 @@ if __name__ == "__main__":
     # CA = test(CA, y_s=10, x_s=4, y_e=1, x_e=5, y_u=5, y_d=9, x_u=2, x_d=17)  # horizontal wall, init near wall
     # CA = test(CA, y_s=10, x_s=4, y_e=5, x_e=5, y_u=6, y_d=9, x_u=2, x_d=17)  # horizontal wall, both inits near wall
     # CA = test(CA, y_s=12, x_s=2, y_e=1, x_e=7, y_u=8, y_d=9, x_u=5, x_d=10)  # one-side obstacle
-    # CA = test(CA, y_s=12, x_s=4, y_e=1, x_e=7, y_u=8, y_d=9, x_u=16, x_d=17)  # without obstacles
+    CA = test(CA, y_s=12, x_s=4, y_e=1, x_e=7, y_u=8, y_d=9, x_u=16, x_d=17)  # without obstacles
     # CA = test(CA, y_s=12, x_s=4, y_e=1, x_e=12, y_u=8, y_d=15, x_u=10, x_d=17)  # up and right init
     # CA = test(CA, y_s=7, x_s=1, y_e=6, x_e=12, y_u=6, y_d=9, x_u=5, x_d=9)  # init one shift near wall
     # CA = test(CA, y_s=7, x_s=1, y_e=5, x_e=12, y_u=6, y_d=9, x_u=5, x_d=9)  # init one shift from wall
